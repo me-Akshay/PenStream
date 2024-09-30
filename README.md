@@ -32,9 +32,21 @@ Penstream is a feature-rich, user-friendly blog platform where users can share t
 
 ## API Endpoints
 
+### Authentication
+
 - **POST** `/api/auth/register`: Register a new user
 - **POST** `/api/auth/login`: Log in and receive JWT token
+- **POST** `/api/auth/logout`: Log out the authenticated user
+
+### Posts
+
+- **GET** `/api/posts`: Get all blog posts
+- **GET** `/api/posts/:id`: Get a specific blog post by ID
 - **POST** `/api/posts`: Create a new blog post
-- **PUT** `/api/posts/:id`: Update a blog post
-- **DELETE** `/api/posts/:id`: Delete a blog post
-- **GET** `/api/posts/summarize/:id`: Summarize a specific blog post
+- **PUT** `/api/posts/:id`: Update an existing blog post by ID
+- **DELETE** `/api/posts/:id`: Delete a blog post by ID
+
+### Summarization
+
+- **GET** `/api/posts/summarize/:postId`: Summarize a specific blog post using AI
+
