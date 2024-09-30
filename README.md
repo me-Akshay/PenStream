@@ -29,13 +29,6 @@ Penstream is a feature-rich, user-friendly blog platform where users can share t
 - **Rich Text Editor**: React Quill
 - **AI for Summarization**: Google Gemini (GenAI)
 
-## Getting Started
-
-### Prerequisites
-- Node.js
-- MySQL
-- Google Gemini API access (for blog summarization)
-
 
 ## API Endpoints
 
